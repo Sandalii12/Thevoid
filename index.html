@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGISTER A COMPLAINT</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+		}
+		h1 {
+			text-align: center;
+			font-size: 3rem;
+			color: blueviolet;
+			padding: 20px 0;
+		}
+		form {
+			width: 50%;
+			margin: 2% auto;
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+            position: absolute;
+            margin-left: 8%;
+		}
+		label {
+			display: block;
+			font-size: 20px;
+			margin-bottom: 10px;
+			color: #333;
+		}
+		input[type="text"], textarea {
+			width: 95%;
+			padding: 10px;
+			margin-bottom: 20px;
+            /* margin-left: 20px; */
+            /* margin-right: 20px; */
+			border-radius: 5px;
+			border: none;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+		}
+		input[type="submit"] {
+			background-color: #755685;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 20px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+            
+		}
+		input[type="submit"]:hover {
+			background-color: #59366b;
+		}
+        img{
+            position: absolute;
+            top: 55%;
+            left: 70%;
+            height: 350px;
+            width: 350px;
+            margin-bottom: 3rem;
+        }
+	</style>
+</head>
+<body>
+	<h1>REGISTER A COMPLAINT</h1>
+	<form>
+		<label for="name">First Name:</label>
+		<input type="text" id="name" name="name" required>
+        <label for="name">Last Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email" required>
+
+		<label for="complaint">Complaint:</label>
+		<textarea id="complaint" name="complaint" rows="5" required></textarea>
+
+		<input type="submit" value="Submit">
+	</form>
+    <img src="void.png">
+</body>
+</html>
